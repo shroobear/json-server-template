@@ -1,52 +1,145 @@
 {
-  "toys": [
+  "accounts": [
     {
       "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "name": "Chase Checking",
+      "amount": 1207.44,
+      "isSavings": false
     },
     {
       "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "name": "Key Bank Checking",
+      "amount": 2004.32,
+      "isSavings": false
     },
     {
       "id": 3,
-      "name": "Mr. Potato Head",
-      "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
+      "name": "Chase Savings",
+      "amount": 1234.56,
+      "isSavings": true
+    },
+    {
+      "name": "Chime Checking",
+      "amount": 122.52,
+      "isSavings": false,
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Groceries"
+    },
+    {
+      "id": 2,
+      "name": "Dining Out"
+    },
+    {
+      "id": 3,
+      "name": "Travel"
     },
     {
       "id": 4,
-      "name": "Slinky Dog",
-      "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
-      "likes": 4
+      "name": "Gas"
     },
     {
       "id": 5,
-      "name": "Rex",
-      "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
-      "likes": 1
+      "name": "Utilities"
     },
     {
       "id": 6,
-      "name": "Bo Peep",
-      "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
-      "likes": 2
+      "name": "Debt Repayment"
     },
     {
       "id": 7,
-      "name": "Hamm",
-      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
-      "likes": 0
+      "name": "Monthly Bills"
     },
     {
       "id": 8,
-      "name": "Little Green Men",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "name": "Personal"
+    }
+  ],
+  "expenses": [
+    {
+      "date": "2023-06-04",
+      "amount": 34.26,
+      "categoryId": 4,
+      "description": "Marathon",
+      "accountId": 1,
+      "isRecurring": false,
+      "id": 1
+    },
+    {
+      "date": "2023-06-06",
+      "amount": 227.66,
+      "categoryId": 1,
+      "description": "Walmart",
+      "accountId": 1,
+      "isRecurring": false,
+      "id": 2
+    },
+    {
+      "date": "2023-06-01",
+      "amount": 1154.24,
+      "categoryId": 7,
+      "description": "Rent",
+      "accountId": 1,
+      "isRecurring": false,
+      "id": 3
+    },
+    {
+      "date": "2023-06-05",
+      "amount": 23.44,
+      "categoryId": 4,
+      "description": "Speedway",
+      "accountId": 1,
+      "isRecurring": false,
+      "id": 4
+    },
+    {
+      "date": "2023-06-03",
+      "amount": 106.22,
+      "categoryId": 1,
+      "description": "Kroger",
+      "accountId": 2,
+      "isRecurring": false,
+      "id": 5
+    },
+    {
+      "date": "2023-06-19",
+      "amount": 52.34,
+      "categoryId": 6,
+      "description": "Amazon Card Payment",
+      "accountId": 2,
+      "isRecurring": true,
+      "id": 6
+    },
+    {
+      "date": "2023-06-10",
+      "amount": 327.33,
+      "categoryId": 6,
+      "description": "Car Payment",
+      "accountId": 1,
+      "isRecurring": true,
+      "id": 7
+    },
+    {
+      "date": "2023-06-19",
+      "amount": 24.25,
+      "categoryId": 4,
+      "description": "Gas",
+      "accountId": 4,
+      "isRecurring": false,
+      "id": 8
+    },
+    {
+      "date": "2023-06-16",
+      "amount": 75.27,
+      "categoryId": 5,
+      "description": "Water Bill",
+      "accountId": 4,
+      "isRecurring": true,
+      "id": 9
     }
   ]
 }
